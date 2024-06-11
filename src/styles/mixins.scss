@@ -1,0 +1,12 @@
+$maxWidth: 1440;
+$minWidth: 375;
+$maxWidthContainer: 1300;
+
+@mixin av($prop, $maxSize, $minSize) {
+    $addSize: $maxSize - $minSize;
+
+    #{$prop}: $maxSize + px;
+    @media (max-width: #{$maxWidthContainer + px}) {
+        #{$prop}: calc(#{$minSize}px + #{$addSize} * ((100vw - #{$minWidth}px) / (#{$maxWidth} - #{$minWidth})));
+    }
+}

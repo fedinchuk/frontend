@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Commissioner Light";
+  src: local("Commissioner Light"), local("Commissioner-Light"),
+    url("Commissioner-Light.woff2") format("woff2"),
+    url("Commissioner-Light.woff") format("woff"),
+    url("Commissioner-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Commissioner Bold";
+  src: local("Commissioner Bold"), local("Commissioner-Bold"),
+    url("Commissioner-Bold.woff2") format("woff2"),
+    url("Commissioner-Bold.woff") format("woff"),
+    url("Commissioner-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Commissioner Medium';
+  src: url('Commissioner-Medium.eot');
+  src: local('Commissioner Medium'), local('Commissioner-Medium'),
+      url('Commissioner-Medium.eot?#iefix') format('embedded-opentype'),
+      url('Commissioner-Medium.woff2') format('woff2'),
+      url('Commissioner-Medium.woff') format('woff'),
+      url('Commissioner-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;}

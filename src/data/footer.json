@@ -1,0 +1,50 @@
+{
+  "title": "subscribe",
+  "description": "Subscribe to our updates and receive exclusive discounts, be the first to discover new collections, and get useful tips for styling your interior",
+
+  "input": {
+    "button": "Subscribe",
+    "placeholder": "Enter your email"
+  },
+
+  "credits": "VaruBy. All rights reserved.",
+
+  "menu": [
+    {
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "title": "Contact",
+      "link": "#"
+    },
+    {
+      "title": "Privacy Policy",
+      "link": "#"
+    },
+    {
+      "title": "Help",
+      "link": "#"
+    },
+    {
+      "title": "About Us",
+      "link": "aboutus"
+    },
+    {
+      "title": "Partners",
+      "link": "#"
+    },
+    {
+      "title": "Catalog",
+      "link": "#"
+    },
+    {
+      "title": "Profile",
+      "link": "#"
+    },
+    {
+      "title": "Terms and Conditions",
+      "link": "terms-and-conditions"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export const admiral: number = 123;

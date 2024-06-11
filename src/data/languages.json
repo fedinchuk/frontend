@@ -1,0 +1,34 @@
+{
+    "sign in": {
+        "ua": "Вхід",
+        "en": "Sign In"
+    },
+    "sign up": {
+        "ua": "Зареєструватися",
+        "en": "Sign Up"
+    },
+    "make your home more comfortable!": {
+        "ua": "Зробіть свій дім комфортнішим!",
+        "en": "Make your home more comfortable!"
+    },
+    "email address": {
+        "ua": "Адреса електронної пошти",
+        "en": "Email Address"
+    },
+    "password": {
+        "ua": "Пароль",
+        "en": "Password"
+    },
+    "forgot password": {
+        "ua": "Забули пароль",
+        "en": "Forgot password"
+    },
+    "don’t have an account": {
+        "ua": "Не маєте облікового запису",
+        "en": "Don’t have an account"
+    },
+    "create with varuby": {
+        "ua": "Творіть з VaruBy",
+        "en": "Create with VaruBy"
+    }
+}

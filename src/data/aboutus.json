@@ -1,0 +1,64 @@
+{
+    "titleinfo": "We are more than just a marketplace; we are a community where you'll find your niche. Our uniqueness lies in creating an ecosystem for consumers who appreciate diversity. Whether you're looking for electronics, fashionable clothing, services, or rare collectibles - we have it all!",
+    "blocksInfo": [
+        {
+            "id": "01",
+            "title": "Security and confidentiality",
+            "description": "High levels of security and preservation of confidentiality for personal information"
+        },
+        {
+            "id": "03",
+            "title": "Variety of options",
+            "description": "A broad selection of delivery and payment options"
+        },
+        {
+            "id": "02",
+            "title": "Customer support connection",
+            "description": "Quick and efficient issue resolution through convenient communication "
+        },
+        {
+            "id": "04",
+            "title": "Innovative solutions",
+            "description": " Implementation of innovative approaches in the platform's functionality"
+        }
+    ],
+    "furnitureStatistic": [
+        {
+            "percent": "90%",
+            "description": "<div>More than <span>90%</span> of users express satisfaction with the intuitive and aesthetically pleasing design of the platform</div>"
+        },
+        {
+            "percent": "60%",
+            "description": "<div>Over the last 6 months, more than <span>60%</span> of new users joined the platform due to innovative solutions and unique opportunities</div>"
+        },
+        {
+            "percent": "100K",
+            "description": "<div>To date, the platform has been chosen by more than <span>100,000</span> users who are actively using the platform</div>"
+        }
+    ],
+    "ourPromises": [
+        {
+            "title": "Our approach",
+            "description": "We believe that furniture should express your individuality and reflect your style. Hence, we meticulously curate a range that caters to the diverse tastes and needs of our customers. Our goal is not just to sell furniture but to create an atmosphere of comfort and joy in every home. We are dedicated to your comfort and ready to share our energy and warmth through each item you purchase"
+        },
+        {
+            "title": "Our  clients",
+            "description": "We have the privilege of serving a diverse and unique clientele who choose our furniture marketplace for the creation and transformation of their homes. Our client community impresses with its diversity and stylistic variety, yet they all share a common goal — to make their spaces more comfortable and special"
+        },
+        {
+            "title": "Our partners",
+            "description": "We believe that furniture should express your individuality and reflect your style. Hence, we meticulously curate a range that caters to the diverse tastes and needs of our customers. Our goal is not just to sell furniture but to create an atmosphere of comfort and joy in every home. We are dedicated to your comfort and ready to share our energy and warmth through each item you purchase"
+        }
+    ],
+    "guards" : [
+        {
+            "text" : "Guarantees that all our products consistently meet safety standards and possess relevant compliance certificates, ensuring your peace of mind"
+        },
+        {
+            "text" : "Guarantees that all products meet safety standards and possess relevant compliance certificates"
+        },
+        {
+            "text" : "Ensures that we only collaborate with manufacturers who have undergone rigorous scrutiny and meet the highest quality standards"
+        }
+    ]
+}

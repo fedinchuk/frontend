@@ -1,0 +1,21 @@
+@import "../assets/fonts/fonts.css";
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "TT Firs Neue", sans-serif;
+    color: var(--primary-primary-100);
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
