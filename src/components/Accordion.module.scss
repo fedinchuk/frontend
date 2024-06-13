@@ -1,0 +1,81 @@
+@import "../styles/variables.scss";
+
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+}
+
+.accordionItem {
+  border-top: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.accordionItem:first-child {
+  border-top: none;
+  border-radius: 15px;
+}
+
+.accordionButton {
+  width: 100%;
+  text-align: left;
+  background-color: #f7f7f7;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+  &:hover {background-color: var(--primary-primary-10);}
+}
+
+.accordionContent {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  font-size: 14px;
+  color: #666;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordionItem.open .accordionContent {
+  max-height: 500px; /* Достатньо велике значення, щоб вміст помістився */
+  padding: 30px 20px;
+  border-radius: 15px;
+
+}
+
+.accordionIcon {
+  width: 20px;
+  height: 20px;
+  fill: #333;
+  transition: transform 0.3s ease;
+}
+
+.accordionItem.open .accordionIcon {
+  transform: rotate(180deg);
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px;
+}
+
+.circ {
+  padding: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
