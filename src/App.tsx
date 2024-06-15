@@ -1,29 +1,14 @@
-// import Layout from "layout/Layout";
-// import Home from "pages/home/Home";
-// import { Route, Routes } from "react-router-dom";
-
-// const App = () => {
-//   return (
-//     <Routes >
-//       <Route path="/" element={<Layout />}>
-//         <Route index element={<Home />} />
-//       </Route>
-//     </Routes>
-//   );
-// };
-
-// export default App;
-
-
 import React from 'react';
 import Accordion from './components/Accordion';
 import styles from './components/Accordion.module.scss';
 
 const App: React.FC = () => {
     const items = [
-        { title: 'What delivery', content: 'Content for item 1' },
-        { title: 'Item 23', content: 'Content for item 2' },
-        { title: 'Item 3', content: 'Content for item 3' },
+        { title: 'What delivery options are available?', content: 'Credit/Debit Cards: Visa, MasterCard, American Express Digital Waller: PayPal, Apple Pay, Google Pay, Samsung Pay' },
+        { title: 'How do i change my personal data in my account?', content: 'Content for item 2' },
+        { title: 'How does the payment process work?', content: 'Content for item 3' },
+        { title: 'How do i resolve a dispute or return a product', content: 'Content for item 4' },
+        { title: 'What payment methods are available?', content: 'Content for item 5' },
     ];
     return (
         <div className="App">

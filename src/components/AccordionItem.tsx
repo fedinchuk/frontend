@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styles from './Accordion.module.scss';
-import { Icon } from 'shared/Icon/Icon';
 
 interface AccordionItemProps {
     title: string;
